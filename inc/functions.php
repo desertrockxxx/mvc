@@ -1,15 +1,17 @@
-<?php
-require_once("inc/dbconfig.php");
+<?php 
 
 function findAllPosts($conn){
-    // Query an die Datenbank senden zum auslesen der Blogbeiträge
-    $stmt = $conn->query("SELECT beitraege.id, titel, inhalt, erstellt, beitragsbild, benutzername FROM beitraege INNER JOIN autoren ON autor_id = autoren.id");
-    $beitraege = $stmt->fetchAll();
+	//Query an Datenbank senden zum auslesen der Blogbeiträge
+	$stmt = $conn->query("SELECT beitraege.ID,  titel, inhalt, erstellt, beitragsbild, benutzername FROM beitraege INNER JOIN autoren ON autorid = autoren.ID");
+	$beitraege = $stmt->fetchAll();
+	
+	//Autoren und Kategorien müssen mit ausgelsen werden
+	
+	//Autor soll mit Benutzername angezeigt werden
 
-    // Autoren und Kategorien müssen mit ausgelesen werden
-
-    // Autor soll mit Benutzername angezeigt werden
-    
+	
+	return $beitraege;
 }
+
 
 ?>

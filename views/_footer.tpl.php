@@ -1,8 +1,5 @@
 </div>
 <footer>
-    <p>Hier könnte ihr Text stehen</p>
+	<p>Hier könnte Ihr Text stehen</p>
 </footer>
-
-
 </body>
-</html>

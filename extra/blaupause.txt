@@ -1,0 +1,39 @@
+Beiträge
+------------
+id <<PK>>
+titel
+inhalt
+erstellt
+beitragsbild
+autor id <<FK>
+
+Autor
+----------
+id <<PK>>
+vorname
+nachname
+benutzername
+
+Kategorien
+-----------
+id <<PK>>
+name
+
+Beitrag-Kategorie
+-----------
+beitragid
+kategorieid
+
+SELECT titel, inhalt, erstellt, beitragsbild, benutzername
+FROM beitraege
+INNER JOIN autoren ON autor_id = autoren.id
+LIMIT 0 , 30;
+
+SELECT beitraege.id, titel, inhalt, erstellt, beitragsbild, benutzername
+FROM beitraege
+INNER JOIN kategorien ON autor_id = autoren.id;
+
+SELECT beitraege.id, name, titel
+FROM beitraege
+INNER JOIN beitrag_kategorie ON beitragid = beitraege.id
+INNER JOIN kategorien ON kategorieid = kategorien.id;

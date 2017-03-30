@@ -1,0 +1,38 @@
+[30-Mar-2017 07:04:59 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/models/dbconfig.php on line 9
+[30-Mar-2017 07:32:19 UTC] PHP Warning:  require_once(/view/_header.tpl.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view/index.tpl.php on line 2
+[30-Mar-2017 07:32:19 UTC] PHP Stack trace:
+[30-Mar-2017 07:32:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/view/index.tpl.php:0
+[30-Mar-2017 07:32:19 UTC] PHP Fatal error:  require_once(): Failed opening required '/view/_header.tpl.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view/index.tpl.php on line 2
+[30-Mar-2017 07:32:19 UTC] PHP Stack trace:
+[30-Mar-2017 07:32:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/view/index.tpl.php:0
+[30-Mar-2017 07:33:22 UTC] PHP Warning:  require_once(view/_header.tpl.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view/index.tpl.php on line 2
+[30-Mar-2017 07:33:22 UTC] PHP Stack trace:
+[30-Mar-2017 07:33:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/view/index.tpl.php:0
+[30-Mar-2017 07:33:22 UTC] PHP Fatal error:  require_once(): Failed opening required 'view/_header.tpl.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view/index.tpl.php on line 2
+[30-Mar-2017 07:33:22 UTC] PHP Stack trace:
+[30-Mar-2017 07:33:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/view/index.tpl.php:0
+[30-Mar-2017 08:59:42 UTC] PHP Warning:  require_once(/inc/dbconfig.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/inc/functions.php on line 2
+[30-Mar-2017 08:59:42 UTC] PHP Stack trace:
+[30-Mar-2017 08:59:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/inc/functions.php:0
+[30-Mar-2017 08:59:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/inc/dbconfig.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/inc/functions.php on line 2
+[30-Mar-2017 08:59:42 UTC] PHP Stack trace:
+[30-Mar-2017 08:59:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/inc/functions.php:0
+[30-Mar-2017 09:00:05 UTC] PHP Warning:  require_once(/inc/dbconfig.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/inc/functions.php on line 2
+[30-Mar-2017 09:00:05 UTC] PHP Stack trace:
+[30-Mar-2017 09:00:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/inc/functions.php:0
+[30-Mar-2017 09:00:05 UTC] PHP Fatal error:  require_once(): Failed opening required '/inc/dbconfig.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/inc/functions.php on line 2
+[30-Mar-2017 09:00:05 UTC] PHP Stack trace:
+[30-Mar-2017 09:00:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/inc/functions.php:0
+[30-Mar-2017 09:02:12 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/inc/functions.php on line 6
+[30-Mar-2017 09:02:12 UTC] PHP Stack trace:
+[30-Mar-2017 09:02:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/inc/functions.php:0
+[30-Mar-2017 09:02:12 UTC] PHP   2. findAllPosts() /home/ubuntu/workspace/inc/functions.php:18
+[30-Mar-2017 10:50:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/view/index.tpl.php on line 7
+[30-Mar-2017 10:50:04 UTC] PHP Stack trace:
+[30-Mar-2017 10:50:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/view/index.tpl.php:0
+[30-Mar-2017 11:00:52 UTC] PHP Warning:  require_once(views/_header.tpl.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/index.tpl.php on line 2
+[30-Mar-2017 11:00:52 UTC] PHP Stack trace:
+[30-Mar-2017 11:00:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/index.tpl.php:0
+[30-Mar-2017 11:00:52 UTC] PHP Fatal error:  require_once(): Failed opening required 'views/_header.tpl.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/index.tpl.php on line 2
+[30-Mar-2017 11:00:52 UTC] PHP Stack trace:
+[30-Mar-2017 11:00:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/index.tpl.php:0

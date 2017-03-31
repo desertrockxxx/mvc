@@ -1,5 +1,5 @@
 </div>
 <footer>
-	<p>Hier könnte Ihr Text stehen</p>
+	<p>Footer Section</p>
 </footer>
 </body>

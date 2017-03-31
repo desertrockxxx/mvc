@@ -1,0 +1,60 @@
+
+.teaser-box{
+	-webkit-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.2);
+	min-height:380px;
+}
+
+.teaser-box > div{
+	padding:10px;
+}
+
+.teaser-box .title h3{
+	text-transform:uppercase;
+	transition: all 0.5s;
+}
+
+.teaser-box .title h3:hover{
+	color: #4288CC;
+	cursor:pointer;
+}
+
+.teaser-box .pic-wrapper{
+height:170px;
+overflow:hidden;
+padding:0;
+position:relative;
+}
+
+.teaser-box .pic-wrapper .overlayer{
+position:absolute;
+width:100%;
+height:170px;
+top:0;
+display:none;
+color:white;
+background-color:none;
+transition:background-color 1s;
+}
+
+.teaser-box .pic-wrapper:hover .overlayer{
+display:block;
+animation-name: background;
+animation-duration: 2s;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes background {
+   0%   {background-color:rgba(0,0,0,0.3);}
+   100% {background-color:rgba(0,0,0,0.5);}
+}
+
+/* Standard syntax */
+@keyframes background {
+     0%   {background-color:rgba(0,0,0,0.3);}
+    100% {background-color:rgba(0,0,0,0.5);}
+}
+
+

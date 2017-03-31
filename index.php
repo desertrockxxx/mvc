@@ -7,19 +7,24 @@ $view = isset($_GET['aktion']) ? $_GET['aktion'] : null;
 switch($view) {
 	case 'single':
 		//Einzelansicht eines Beitrags
+		$results = findSinglePost($db, $_GET['pid']);
 	break;
 		
 	case 'add':
 		//Hinzufügen eines Beitrags
+	
 	break;
 	
 	case 'delete':
 		//Löschen eines Beitrags
+	
 	break;
 	
 	case 'edit':
 		//Update eines Beitrags
+	
 	break;
+	
 	default:
 		//Standardansicht wird geladen
 		$results = findAllPosts($db);
